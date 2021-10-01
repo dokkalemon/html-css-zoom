@@ -100,7 +100,53 @@ main {
 
 /* FOOTER */
 footer {
-    background-color: #666;
-    height:50px;
+    background-image: linear-gradient(#24282a, #1c2021);
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    padding: px;
 }
 
+.button-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.button {
+    text-align: center;
+    margin: 0px 2px;
+    cursor: pointer;
+
+}
+
+.button i {
+    font-size: 23px;
+    display: block; 
+    margin-bottom: 10px;
+   
+}
+
+.arrow i {
+    font-size: 20px;
+
+}
+
+.share i {
+    color: #49cb04;
+    font-size: 25px;
+}
+
+
+.end {
+    height: 100%;
+    background-image: linear-gradient(#4c4d4f, #424747);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.end span {
+     color: #e35045
+}
