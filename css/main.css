@@ -56,6 +56,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    
 
 }
 
@@ -63,7 +65,7 @@ main {
     height: 150px;
     width: 250px;
 
-    margin: 0 5px;
+    margin: 5px 5px;
     position: relative;
 }
 
@@ -85,13 +87,13 @@ main {
 .info-partecipant p {
     display: inline;
     padding: 3px; 
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.7)
 }
 
-
-
-
-
+.partecipant:hover {
+    bordeR: 3px solid #56ba07;
+    
+}
 
 
 
