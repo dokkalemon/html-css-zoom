@@ -1,0 +1,104 @@
+/* GENERAL STYLE */
+/* Reset */
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+
+body {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* UTILITIES */
+.p-15 {
+    padding: 15px;
+}
+
+p {
+    font-size: 13px;
+}
+/* HEADER */
+.header-button {
+    text-align: right;
+
+}
+
+.header-button a {
+    color: white; 
+    text-decoration: none;
+    background-image: linear-gradient(#3b3b3b, #1b1b1b);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.header-button span {
+    color: white; 
+    text-decoration: none;
+    background-image: linear-gradient(#3b3b3b, #1b1b1b);
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/* MAIN */
+main {
+    flex-grow: 1;
+    overflow: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.partecipant {
+    height: 150px;
+    width: 250px;
+
+    margin: 0 5px;
+    position: relative;
+}
+
+.partecipant img {
+    height: 100%;  
+    width: 100%; 
+    object-fit: cover;
+}
+
+.info-partecipant {
+   
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+.info-partecipant p {
+    display: inline;
+    padding: 3px; 
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: #666;
+    height:50px;
+}
+
